@@ -640,7 +640,7 @@ public class TutorialMechanics implements Listener {
 			e.setCancelled(true);
 			if(e.getMessage().equalsIgnoreCase("y")) {
 				// TODO: Move them to the main land, give items, etc.
-				leaveTutorial(pl);
+				Bukkit.getScheduler().runTask(Main.plugin, () -> leaveTutorial(pl));
 			} else {
 				pl.sendMessage(ChatColor.RED + "Tutorial Skip - " + ChatColor.BOLD + "CANCELLED");
 			}

@@ -127,11 +127,11 @@ public class Config {
     public static String Hive_IP = "localhost";
 
     //public static int SQL_port = 7447;
-    public static int SQL_port = 3306;
+    public static int SQL_port = 3311;
     //public static String sql_user = "slave_3XNZvi";
-    public static String sql_user = "dungeonrealms";
+    public static String sql_user = "root";
     //public static String sql_password = "SgUmxYSJSFmOdro3";
-    public static String sql_password = "qcHqKGVdLXNXXN5j";
+    public static String sql_password = "root";
     public static String sql_url = "jdbc:mysql://" + Hive_IP + ":" + SQL_port + "/dungeonrealms";
 
     public static int FTP_port = 21;
